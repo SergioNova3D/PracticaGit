@@ -1,0 +1,14 @@
+1. Un repositorio es un espacio el cual una persona puede crear el codigo inicial y esta puede puede compartir en la nube lo que hace 
+y guardarlo ahi para que otras sigan editando en base al espacio que el ha creado. 
+
+2. Un conflicto es cuando dos personas trabajan con el mismo codigo y al guardar aparecen los cambios de cada uno de manera individual. 
+Ocurre cuando dos personas estas editando el mismo codigo y una vez este esta terminado, se guarda, se sube y la otra persona intenta guardar el suyo para subirlo
+se genera un problema ya que los dos estan siendo editados al mismo tiempo. 
+Se puede resolver entrando en el fichero y hablando con tu compañero sobre que codigo es mejor para que despues no hayan datos borrados innecesarios. 
+Una vez hablado, se borra lo que se quiere quitar (tipo mas el head las lineas y eso) y se vuelve a guardar y a subir. 
+
+3. Git facilita el trabajo por ramas para que cada persona pueda trabajar de manera mas eficiente y sencilla para no generar un alboroto en su propio espacio.
+Asi no hay ningun error al trabajar en la misma rama/espacio que otras 4 personas.  
+
+4. Git pull sirve para descargarte todas las ramas actualizadas que haya en el repertorio y 
+git push es para subir el trabajop que has estado haciendo en tu propia rama al repertorio.
