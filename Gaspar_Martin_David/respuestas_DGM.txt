@@ -1,0 +1,7 @@
+1.Un repositorio es el lugar en el que guardamos los archivos con los que trabajamos con la posibilidad
+de compartirlos.
+2.Un conflicto Git es un problema que ocurre cuando dos integrantes trabajan al mismo tiempo y guardan,
+se puede resolver cuando el dueño decide lo que se queda en el archivo.
+3.Facilita el trabajo por ramas porque permite a varias personas trabajar en lo mismo a la vez,
+estando el lugares distintos.
+4.Git pull actualiza la rama y git push introduce los cambios.
