@@ -1,0 +1,5 @@
+1º Lugar en en el que se guarda y podemos trabajar varios en el codigo.
+2º un conflicto es cuando dos personas han trabajado en un mismo archivo a la vez. Se resuelve con git fetch --all luego git log "nombre de la rama" ..origin/"nombre de la rama" --oneline 
+y luego git merge origin/nombre de la rama . Una vez realizado estos comandos editamos manualmente con cual nos quedamos o una mezcla de ambos y ya se podria subir correctamente al remoto.
+3º Se trabaja de manera más ordenada, cada persona puede tener su rama y asi evitar que ocurran más conflictos.
+4º git pull: Trae cambios del remoto y fusiona en el local. git push: sube commits locales al repositorio remoto. 
