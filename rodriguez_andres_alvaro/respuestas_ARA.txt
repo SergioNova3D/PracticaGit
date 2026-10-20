@@ -1,0 +1,21 @@
+1.Define repositorio.
+
+Lugar en remoto donde se guardan conteninos mayormete de programación.
+
+2.¿Qué es un conflicto de Git, por qé ocurre y cómo se debe resolver?
+
+Primero un conflicto de Git es cuando alguien ha modificado un fichero y tu lo quieres modificar pero lo haces mas tarde que el compañero ejemplo:
+-Compañero hace un push con comida.txt con contenido patata y ahora tu quieres hacer lo mismo pero en vez de poner patata pones boquerones pues tu al haberlo hecho mas tarde
+Git te dira que hay un conflicto.
+El conflicto se arregla haciendo un "git merge origin/nombre de la rama" con esto iremos al archivo que queriamos modificar y nos mostrara que es nuestro y que es
+lo de nuestro compañero, aqui modificamos el documento con el contenido arreglado y lo subimos con nuestro respectivos add, commit, push.
+
+3.Explica por qué Git facilita el trabajo por ramas.
+
+El trabajo por ramas ayuda a que una empresa o grupo de trabajo se pueda dedicar cada uno a una parte del proyecto, organizandolo para que no se pisen cada vez que quieran
+subir algo al repositorio, es una forma de agilizar el trabajo ya que si no siempre estarian al final del dia haciendo una sesión de arreglar conflictos.
+
+4.Explica para qué sirve git pull y para qué sirve git push.
+
+Git pull sirve para descargar todo el contenido del repositorio remoto en tu repositorio local.
+Git push sirve para subir el contenido que has modificado hacia el repositorio remoto.
