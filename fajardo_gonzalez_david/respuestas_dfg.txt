@@ -1,0 +1,10 @@
+1
+un repositorio es una carpeta en la nuve en la que se puede acceder de manera remota el cual almacena informacion
+2
+un conflicoto en git es cuando se sube 2 archivos de informacion y se guardan en la misma carpeta ocuriendo un fallo al no poder a ver 2 archivos 
+con el mismo nombre al ocurrir esto ocure un conflicto se resuelve al usar el comando: git log "nombre de la rama"..origin/"nombre de la rama" --oneline
+3
+git lo facilita porque facilita la creacion de ramas al usar sintaxis de comandos simples claras y concisas para posteriormente 
+subirlos al repositorio local y del local a la nube 
+4 
+git pull sirve para actualizar la rama del repositorio local y git push sirve para subir los cambios del repositorio local a la nube 
