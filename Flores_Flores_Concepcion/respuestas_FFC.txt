@@ -1,0 +1,26 @@
+1. Define repositorio.
+
+Un repositorio es un espacio para guardar tus modificaciones de los proyectos que hayas hecho en GitHub. Se divide en repositorio local si lo tienes descargado en tu ordenador
+y el repositorio remoto, guardado en la propia pagina web de Git. Es modificado y guardado a base de comandos.
+
+
+2. ¿Qué es un conflicto en Git, por qué ocurre y cómo se debe resolver?
+
+Un conflicto en Git es un error que sucede cuando dos compañeros en la misma rama hayan hecho un cambio y lo hayan guardado a la vez. El propio sistema se dará cuenta del 
+conflicto y mandará un aviso. Para resolverlo, primero deberás descargar la información nueva del repositorio remoto con git fetch --all. Luego, se utiliza otro comando
+para ver si hay un commit de la rama que esté en remoto y no esté en local con git log "nombre de la rama"..origin/"nombre rama" --oneline. Dentro del fichero se podrá 
+observar cual es la nueva informaciónde tu compañero y cual es la tuya y, tras haber consultado con tu equipo, decides que cambiar del fichero. Una vez hecho eso, cambias a
+la rama main para utilizar git merge origin/nombre rama para la unir rama en la que dio error y, finalmente, desde ahí puedes guardar los cambios al repositorio remoto.
+
+
+3. Explica por qué Git facilita el trabajo por ramas.
+
+Gracias a las ramas, cualquier archivo nuevo o cambio hecho está centrado en la rama en la que estés trabajando, sin interferir en las demás. Por lo que en general, esta
+herramienta organiza el proyecto fácilmente.
+
+
+4. Explica para qué sirve git pull y para qué sirve git push.
+
+Estos dos comandos sirven para guardar tu progreso una vez hecho anteriormente un add y un commit. Al tener nuestro proyecto ya guardado en el repositorio remoto gracias al
+commit, puedes utilizar el git push para finalmente guardarlo en el repositorio remoto. Por otro lado, el git pull sirve para traer los archivos del repositorio remoto
+al local.
