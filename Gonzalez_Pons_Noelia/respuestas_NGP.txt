@@ -1,0 +1,13 @@
+1. Define repositorio: lugar en el que se guarda todas las ramas creadas por cada componente y se ponen en comun para que estos mismos puedan verlas y hacer cambios en otras 
+de ellas si es necesario.
+2. ¿Qué es un conflicto en Git, por qué ocurre y cómo se debe resolver?
+Un conflicto es en el momento en el que dos personas han realizado cambios en una misma rama y no ha habido 
+comunicación suficiente para saber que lo han hecho a la vez y se han intentado subir el archivo cada uno por separado, al segundo que lo hace le dara el error debido a que 
+tiene ya el archivo unos cambios que el nuevo archivo no tiene.
+Se resuelve a partir de la comunicación por parte de los integrantes del conflicto, hablan y se ponen de acuerdo en que cosas deben dejar o unir en el archivo y al que le
+ha salido el fallo debe restaurarlo de manera que le salagan las dos versiones juntas y arreglarlo.
+3. Explica por qué Git facilita el trabajo por ramas.
+Por que esta web tiene un sistema que podemos comprar con un arbol en el que se pueden meter varias personas en  un mismo trabajo creando cada una sus partes sin chocarse 
+unas entres otras.
+4. Explica para qué sirve git pull y para qué sirve git push.
+Git push sube tus archivos al repositrio para guardarlos y git pull retrocede al estado anterior antes de subirse.
