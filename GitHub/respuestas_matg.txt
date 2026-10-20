@@ -1,0 +1,6 @@
+1. espacio centralizado donde se almacena, organiza, mantiene y comparte información digital
+2.es una pausa en el proceso de integración que ocurre cuando Git detecta dos modificaciones contradictorias en una misma línea
+ o sección de un archivo
+3.porque es un sistema de control de versiones distribuido que permite registrar, organizar y colaborar en el código
+4.git pull sirve para descargar los cambios del repositorio remoto y combinarlos en tu computadora.
+ git push sirve para subir los cambios que hiciste en tu computadora hacia el repositorio remoto
