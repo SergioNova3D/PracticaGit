@@ -1,0 +1,5 @@
+Preguntas
+1.Un repositorio es una carpeta de almacenamiento donde se guarda el trabajo o codigo de un proyecto de los programadores
+2.Un conflito de Git ocurre cuando dos programdores hacen cambios diferentes en una misma rama de un mismo repositorio, este problema se resuelve contactando con nuestro compañero y decidiendo con que cambios se van a quedar o fusionando los cambios.
+3.Git facilita el trabajo por ramas porque hace posible que varios usuarios puedan trabajar en un mismo proyecto desde ramas diferentes y ordenadores diferentes.
+4/5.El comando git pull sirve para actualizar una rama, mientras el git push sirve para guerdar los cambios dentro del repositorio original.
