@@ -1,0 +1,9 @@
+1) Definición de repositorio: un repositorio es una área de trabajo en un servidor remoto que utilizaremos para crear proyectos y guardar todos los avances del mismo. Esto lo haremos a traves de crear ramas, archivos, etc... en nuestro dispositivo local, que una vez conectado, nos permitira enviar la información a la plataforma externa. 
+   De esta manera, nos aseguramos de llevar un orden a la hora de realizar proyectos y sobre todo, podemos volver a pasos anteriores en el proceso.
+2)Conflicto en Git: Un conflicto ocurrirá si hay varias personas modificando una misma parte del trabajo a la vez, pero uno sube el cambio antes de que otro pueda actualizar la información previamente.
+  Para resolverlo , se tendrá que o bien elegir una de las dos opciones de versión o, en su defecto, fusionar las ramas o información y luego hacer los cambios sobre es nuevo trabajo.
+3)Trabajar por ramas: Porque al trabajar por ramas, se aceleran los procesos de desarrollo y permite interconectividad casi completa entre los colaboradores en un mismo proyecto.
+  También el poder guardar grandes cantidades de información de forma ordenada y segura.
+4)Pull y Push en Git: El primero unifica los cambios de la rama en la que estamos trabajando en el repositorio remoto con nuestro repositorio local (es una mezcla de fetch y merge).
+  El segundo sirve para actualizar el repositorio remoto despues de hacer los commits locales (guardar localmente).
+   
