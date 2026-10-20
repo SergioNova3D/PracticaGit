@@ -1,0 +1,5 @@
+CONCEPTOS
+1. Es un archivo que está tanto a nivel remoto como a nivel local.
+2. Es cuando hay dos versiones de un mismo archivo que no coinciden, se resuelve eligiendo con qué versión nos vamos a quedar, o modificándolo para unificar ambas.
+3. Ya que permite que varias personas trabajen desde sitios distintos en ramas diferentes a la vez.
+4. Git pull sirve para traer y actualizar cambios del repositorio remoto en tu rama local. Git push sirve para enviar commits locales al repositorio remoto.
