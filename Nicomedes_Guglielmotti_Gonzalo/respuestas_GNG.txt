@@ -2,4 +2,4 @@
 2. Un conflicto en Git aparece cuando Git no puede decidir entre dos versiones del documento cuando se hace un push, esto pasa cuando dos ramas modificaron el mismo archivo y Git necesita saber cuál de las dos
 versiones es la correcta, para resolverlo, tenemos que comprobar el conflicto, y en el archivo, borrar el código que se puso ahí (<<<<<<<HEAD, esos códigos), y subirlo de nuevo.
 3. Git facilita el trabajo por ramas porque son fáciles de crear, cómodas y funcionan como apartados para el historial en vez de duplicar códigos.
-4. Git pull sirve para traer y actualizar en tu rama local los cambios que están en el repositorio remoto, y git push es para subir los commits locales al dispositivo remoto.
+4. Git pull sirve para traer y actualizar en tu rama local los cambios que están en el repositorio remoto, y git push es para subir los commits locales al repositorio remoto.
