@@ -1,0 +1,24 @@
+Preguntas
+
+Define repositorio: 
+
+Llamamos repositorio al espacio virtual donde se suben nuestros archivos del proyecto, ya sea local, en los archivos de nuestro ordenador, o remoto, 
+en los archivos de la plataforma ''GitHub''
+
+¿Que es un conflicto en Git, por qué ocurre y como se debe resolver?
+
+Un conflicto ocurre cuando dos o más personas modifican un mismo archivo, ocurriendo un conflicto 
+en el cual no se puede decidir cual de los cambios debe de quedarse como el final. Para arreglarlo,
+ se debe de tener buena comunicación y hablar con tus compañeros sobre que cambios han hecho ellos, 
+para ver si, si es que han subido mismas versiones de la misma cosa, ver cual se queda.
+Pero si son cambios diferentes, se debe de modificar el archivo y confirmar de que todos los cambios quieren ser añadidos.
+
+Explica por qué Git facilita el trabajo por ramas:
+
+Git facilita el trabajo en ramas porqué está diseñado para ser una herramienta en equipos de trabajo, 
+permitiendo varias personas trabajar en el mismo proyecto al mismo tiempo, sin causar problemas, siempre y cuando estas se utilicen correctamente.
+
+Explica para que sirve el git pull y el git push:
+
+El git pull sirve para traer del repositorio remoto los cambios a nuestro repositorio local, actualizando las ramas.
+El git push sirve para subir los cambios en general o de una rama especñifica al repositorio remoto desde el repositorio local.
