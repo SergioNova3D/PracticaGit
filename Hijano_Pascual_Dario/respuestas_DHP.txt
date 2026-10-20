@@ -1,0 +1,4 @@
+1. Un repositorio es como el lugar donde se almacenan todas las ramas
+2. Un conflicto es un error que ocurre cuando dos personas modifican la misma o mismas lineas pero con cosas diferentes y para resolverlo deben ponerse de acuerdo en que modificación se queda
+3. Porque es una manera mas estructurada y ordenada de trabajar
+4. git push sirve para enviar tus commits locales al repositorio remoto y git pull se utiliza para traer y actualizar en tu rama local los cambios que están en el repositorio remoto
