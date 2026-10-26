@@ -1,0 +1,29 @@
+Define repositorio:
+Un repositorio es un espacio digital donde se almacena, organiza y se gestiona todo el código, archivos y cambios de un proyecto
+
+¿Qué es un conflicto en Git, por qué ocurre y cómo se debe resolver?
+
+Un conflicto en git ocurre cuando nosotros tenemos un proyecto compartido con un compañero 
+y ambos hacemos una serie de cambios en un mismo archivo y queremos subirlo se produce un conflicto ya que git se quedara solo con el primer usuario que haya hecho los primeros cambios sobre ese archivo.
+Para resolverlo vamos a seguir una serie de pasos:
+1º Hacemos un git branch para saber en la rama que me encuentro.
+2º Realizamos un git pull para actualizar la rama
+3º Hacemos un git fecht --all para descargar toda la info del repositorio remoto.
+4º Hacemos un git log --all --graph para ver la info de manera gráfica
+5º Hacemos un git merge para unir los cambios de la rama.
+6º Hacemos git log "nombre de la rama"..origin/ "nombre de la rama" --oneline Aqui es donde vemos el error
+A traves de estos pasos lo que ha ocurrido ha sido que ahora en nuestro archivo podemos ver los cambios del compañero
+donde según lo que hayamos puesto el archivo seguira una estructura que pondrá Head y dos guiones que eso indica lo que nosotros hemos escrito y luego pondrá otros dos guiones donde vendrá el contenido del compañero.
+Para resolverlo decidimos entre los dos que es lo que nos vamos a quedar y guardamos y lo volvemos a subir
+
+-Explica por qué Git facilita el trabajo por ramas:
+Git facilita el trabajo de ramas en un repositorio sobre todo por el tema de la organización por ejemplo:
+Nosotros tenemos un proyecto en unity donde varias personas tiene distintas funciones, uno se encarga de las animaciones, otros de las texturas y otro del diseño.
+Para ello se crearia tres ramas donde una seria Animació, otro texturas y otro diseño.
+teniendo en cuenta que nuestra rama main seria el proyecto de unity en general dentro de cada rama que he mencionado habria un equipo donde haria una distinta función.
+Con esta organización y está división de trabajo el proyecto seria mucho más sencillo de llevar que tenerlo todo en uno.
+
+
+-Explica para que sirve git pull y git push:
+Git pull: Sirve para atraer y actualizar la rama.
+Git push: Sirve Para enviar las commit al repositorio remoto.
